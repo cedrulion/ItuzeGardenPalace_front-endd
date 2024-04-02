@@ -1,0 +1,20 @@
+/* TestimonialsCarousel.css */
+
+.my-carousel {
+    /* Custom styles for the carousel container */
+  }
+  
+  .testimonial-text {
+    /* Custom styles for testimonial text */
+    position: relative; /* Position relative to make dot positioning relative to this paragraph */
+  }
+  
+  .carousel .dot {
+    /* Custom styles for navigation dots */
+    position: absolute;
+    bottom: 10px; /* Adjust this value as needed to position the dots */
+    left: 50%; /* Position at the center horizontally */
+    transform: translateX(-50%);
+    z-index: 999; /* Ensure dots are above the paragraph content */
+  }
+  
